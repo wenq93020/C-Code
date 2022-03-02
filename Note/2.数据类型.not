@@ -1,0 +1,46 @@
+数据类型
+	char		// 字符数据类型
+	short		// 短整型
+	int			// 整型
+	long		// 长整型
+	long long	// 更长的整型
+	float		// 单精度浮点数
+	double		// 双精度浮点数
+	
+	// 不同数据类型向内存申请的空间大小
+	printf("%d\n", sizeof(char));// 1字节
+	printf("%d\n", sizeof(short));// 2字节
+	printf("%d\n", sizeof(int));// 4字节
+	printf("%d\n", sizeof(long));// 4字节
+	printf("%d\n", sizeof(long long));// 8字节
+	printf("%d\n", sizeof(float));// 4字节
+	printf("%d\n", sizeof(double));// 8字节
+	
+计算机中的单位
+	bit 	比特位
+	byte 	字节
+	kb		千字节
+	mb		兆字节
+	gb
+	tb
+	pb
+	...
+	
+计算机中的单位转换
+	1byte = 8bit
+	1kb = 1024byte
+	1mb = 1024kb
+	1gb = 1024mb
+	1tb = 1024gb
+	1pb = 1024tb
+	...
+	
+	
+printf函数相关
+	printf("%字母",对应数据);
+	// %d - 打印整型
+	// %c - 打印字符
+	// %f - 打印小数
+	// %p - 以地址的形式打印
+	// %x - 打印十六进制
+	// ...
